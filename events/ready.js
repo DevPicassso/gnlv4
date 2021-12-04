@@ -7,17 +7,17 @@ var prefix = ayarlar.prefix;
 
 module.exports = client => {
   console.log(
-    `[${moment().format("YYYY-MM-DD HH:mm:ss")}] Narcos Code: Aktif, Komutlar yüklendi!`
+    `[${moment().format("YYYY-MM-DD HH:mm:ss")}] Serial Code: Aktif, Komutlar yüklendi!`
   );
   console.log(
-    `[${moment().format("YYYY-MM-DD HH:mm:ss")}] Narcos Code: ${
+    `[${moment().format("YYYY-MM-DD HH:mm:ss")}] Serial Code: ${
       client.user.username
     } ismi ile giriş yapıldı!`
   );
   client.user.setStatus("online");
   var oyun = [
-    "Egehanss",
-    "Narcos Code"
+    "Picasso",
+    "Serial V2"
 
   ];
 
